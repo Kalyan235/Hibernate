@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.createiq.model.Student" table="stu_tab">
+
+		<id name="sid" type="int" column="s_id">
+
+		</id>
+
+		<property name="sname" column="s_name" type="string" />
+
+		<property name="sfee" column="s_fee" type="double" />
+
+	</class>
+</hibernate-mapping>
